@@ -85,5 +85,42 @@ button {
 button:hover {
   background: #43a047;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #2e8b57, #3cb371);
+  padding: 20px 40px;
+  color: white;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 
 
